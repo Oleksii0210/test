@@ -1,0 +1,46 @@
+.form-section {
+    background-color: #f4d598;
+}
+.form-button {
+    font-family: "e-Ukraine-Thin", serif;
+    cursor: pointer;
+    width: 360px;
+    align-items: center;
+    margin: 20px;
+    border-radius: 40px;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    border: 1px solid #6e0012;
+    background-color: #6e0012;
+    color: #f4d598;
+  }
+
+  .form-input {
+    display: flex;
+    width: 360px;
+    height: 44px;
+    margin: 20px;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-right: auto;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    border: 1px solid #6e0012;
+    background-color: transparent;
+  }
+
+  .form-input-comment {
+    display: flex;
+    width: 360px;
+    height: 134px;
+    margin: 20px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-right: auto;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    border: 1px solid #6e0012;
+    background-color: transparent;
+  }
