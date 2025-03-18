@@ -1,0 +1,39 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3867246, 2020-12-16T11:57:38-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Grunt Grotesk Light by Tkachenko design
+ * URL: https://www.myfonts.com/collections/tkachenko-design-foundry
+
+ * Webfont: Grunt Grotesk Bold by Tkachenko design
+ * URL: https://www.myfonts.com/collections/tkachenko-design-foundry
+ 
+ * © 2025 MyFonts Inc. */
+@font-face {
+  font-family: "GruntGroteskBold";
+  src: url("fons/GruntGroteskBold/font.woff2") format("woff2"),
+    url("fons/GruntGroteskBold/font.woff") format("woff");
+}
+@font-face {
+  font-family: "GruntGroteskLight";
+  src: url("fons/GruntGroteskLight/font.woff2") format("woff2"),
+    url("fons/GruntGroteskLight/font.woff") format("woff");
+}
+
+@font-face {
+  font-family: "e-UkraineLight";
+  src: url("fons/e-Ukraine-Light/font.woff2") format("woff2"),
+    url("fons/e-Ukraine-Light/font.woff") format("woff");
+}
+
+@font-face {
+  font-family: "e-Ukraine-Thin";
+  src: url("fons/e-Ukraine-Thin/font.woff2") format("woff2"),
+    url("fons/e-Ukraine-Thin/font.woff") format("woff");
+}
