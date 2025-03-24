@@ -1,4 +1,3 @@
-
 .form-section {
   background-color: #f4d598;
   width: 450px;
@@ -48,7 +47,7 @@
   background-color: transparent;
 }
 /*------------------------*/
-.form-activ{
+.form-activ {
   padding: 20px;
 }
 
@@ -74,82 +73,168 @@
   background-color: transparent;
 }
 /*==================FOOTER================*/
-li{
+li {
   list-style-type: none;
 }
-ul{
+ul {
   margin: 0px;
   padding: 0px;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.deva-footer{
-  background-color: #6E0012;
+.deva-footer {
+  background-color: #6e0012;
   width: 1280px;
   padding-left: 60px;
   padding-top: 60px;
   padding-right: 60px;
 }
 
-.deva-footer-logo{
-padding-bottom: 60px;
+.deva-footer-logo {
+  padding-bottom: 60px;
 }
 
-.deva-footer-section{
+.deva-footer-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  font-family: "GruntGroteskLight",serif;
+  font-family: "GruntGroteskLight", serif;
   font-size: 16px;
   font-weight: 300;
-  color: #F4D598;
+  color: #f4d598;
   text-transform: uppercase;
 }
 
-.deva-footer-menu{
+.deva-footer-menu {
   margin-bottom: 20px;
 }
 
-.deva-footer-text{
-  font-family: "e-UkraineLight",serif;
+.deva-footer-text {
+  font-family: "e-UkraineLight", serif;
   font-size: 16px;
   font-weight: 100;
   text-transform: none;
   margin-bottom: 16px;
 }
 
-.deva-footer-texti{
+.deva-footer-texti {
   text-transform: uppercase;
   margin-bottom: 8px;
 }
 
-.deva-footer-mail{
+.deva-footer-mail {
   margin-bottom: 54px;
 }
-.deva-footer-tex{
+.deva-footer-tex {
   margin-bottom: 56px;
 }
 
-.deva-footer-form{
+.deva-footer-form {
   display: flex;
 }
 
-.deva-footer-button{
-  font-family: "GruntGroteskLight",serif;
+.deva-footer-button {
+  font-family: "GruntGroteskLight", serif;
   font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
-  color: #F4D598;
-  }
-.deva-footer-info{
-  display: flex;
-  gap: 216px;
-  font-family: "e-UkraineLight",serif;
+  color: #f4d598;
+  background-color: #6e0012;
+}
+
+.deva-footer-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: "e-UkraineLight", serif;
   font-size: 16px;
   font-weight: 100;
-  color: #F4D598;
+  color: #f4d598;
   padding-top: 60px;
   padding-bottom: 40px;
+}
+
+.form-txt-right {
+  font-family: "e-UkraineLight", serif;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 120%;
+  color: #f4d598;
+  text-align: right;
+}
+
+.form-txt {
+  font-family: "e-UkraineLight", serif;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 120%;
+  color: #f4d598;
+}
+
+/*===========help==================*/
+.form-help {
+  padding-top: 100px;
+  background-color: #1e2613;
+  width: 493px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 133px;
+}
+
+.form-text {
+  font-family: "GruntGroteskLight", serif;
+  font-weight: 300;
+  font-size: 52px;
+  line-height: 128%;
+  color: #f4d598;
+  margin: 0px;
+}
+
+.form-text-bolt {
+  font-family: "GruntGroteskBold", serif;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 128%;
+  color: #f4d598;
+  margin: 0px;
+}
+
+.form-text-right {
+  font-family: "GruntGroteskLight", serif;
+  font-weight: 300;
+  font-size: 52px;
+  line-height: 128%;
+  color: #f4d598;
+  margin: 0px;
+  text-align: right;
+}
+/*
+.form-help-input{
+  
+}
+*/
+.form-help-one {
+  display: flex;
+  width: 373px;
+  font-family: "GruntGroteskLight", serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #f4d598;
+  border-left: 1px solid transparent;
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #f4d59880;
+}
+
+.form-help-button {
+  background-color: #1e2613;
+  font-family: "GruntGroteskLight", serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #f4d598;
 }
