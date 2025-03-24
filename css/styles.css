@@ -1,8 +1,11 @@
+
 .form-section {
   background-color: #f4d598;
+  width: 450px;
+  padding: 20px;
 }
 .form-button {
-  font-family: "e-Ukraine-Thin", serif;
+  font-family: "GruntGroteskLight", serif;
   cursor: pointer;
   width: 360px;
   align-items: center;
@@ -45,11 +48,14 @@
   background-color: transparent;
 }
 /*------------------------*/
+.form-activ{
+  padding: 20px;
+}
+
 .form-input-one {
   display: flex;
   width: 285px;
   height: 23px;
-  margin: 20px;
   border-bottom: 1px solid #f4d598;
   border-left: 1px solid transparent;
   border-top: 1px solid transparent;
@@ -66,4 +72,84 @@
   border-top: 1px solid transparent;
   border-right: 1px solid transparent;
   background-color: transparent;
+}
+/*==================FOOTER================*/
+li{
+  list-style-type: none;
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.deva-footer{
+  background-color: #6E0012;
+  width: 1280px;
+  padding-left: 60px;
+  padding-top: 60px;
+  padding-right: 60px;
+}
+
+.deva-footer-logo{
+padding-bottom: 60px;
+}
+
+.deva-footer-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: "GruntGroteskLight",serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #F4D598;
+  text-transform: uppercase;
+}
+
+.deva-footer-menu{
+  margin-bottom: 20px;
+}
+
+.deva-footer-text{
+  font-family: "e-UkraineLight",serif;
+  font-size: 16px;
+  font-weight: 100;
+  text-transform: none;
+  margin-bottom: 16px;
+}
+
+.deva-footer-texti{
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.deva-footer-mail{
+  margin-bottom: 54px;
+}
+.deva-footer-tex{
+  margin-bottom: 56px;
+}
+
+.deva-footer-form{
+  display: flex;
+}
+
+.deva-footer-button{
+  font-family: "GruntGroteskLight",serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #F4D598;
+  }
+.deva-footer-info{
+  display: flex;
+  gap: 216px;
+  font-family: "e-UkraineLight",serif;
+  font-size: 16px;
+  font-weight: 100;
+  color: #F4D598;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
