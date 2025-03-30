@@ -76,7 +76,8 @@
 li {
   list-style-type: none;
 }
-ul {
+ul,
+p {
   margin: 0px;
   padding: 0px;
 }
@@ -91,6 +92,7 @@ a {
   padding-left: 60px;
   padding-top: 60px;
   padding-right: 60px;
+  color: #f4d598;
 }
 
 .deva-footer-logo {
@@ -103,12 +105,27 @@ a {
   font-family: "GruntGroteskLight", serif;
   font-size: 16px;
   font-weight: 300;
-  color: #f4d598;
   text-transform: uppercase;
 }
 
 .deva-footer-menu {
   margin-bottom: 20px;
+  color: #f4d598;
+}
+
+.deva-footer-col {
+  color: #f4d598;
+}
+
+.deva-footer-col:hover {
+  color: #e2471f;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 1s;
+}
+
+.deva-footer-col:active {
+  color: #1e2613;
 }
 
 .deva-footer-text {
@@ -140,14 +157,26 @@ a {
   font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
+  border: none;
   color: #f4d598;
   background-color: #6e0012;
+}
+
+.deva-footer-button:hover {
+  color: #e2471f;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 1s;
+}
+
+.deva-footer-button:active {
+  color: #1e2613;
 }
 
 .deva-footer-info {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  font-family: "e-UkraineLight", serif;
+  font-family: "e-Ukraine-Thin", serif;
   font-size: 16px;
   font-weight: 100;
   color: #f4d598;
@@ -155,27 +184,21 @@ a {
   padding-bottom: 40px;
 }
 
-.form-txt-right {
-  font-family: "e-UkraineLight", serif;
-  font-weight: 100;
-  font-size: 16px;
-  line-height: 120%;
-  color: #f4d598;
-  text-align: right;
-}
-
 .form-txt {
-  font-family: "e-UkraineLight", serif;
+  font-family: "e-Ukraine-Thin", serif;
   font-weight: 100;
   font-size: 16px;
   line-height: 120%;
   color: #f4d598;
+  margin-top: 20px;
 }
 
 /*===========help==================*/
 .form-help {
+  font-family: "GruntGroteskLight", serif;
   padding-top: 100px;
   background-color: #1e2613;
+  color: #f4d598;
   width: 493px;
   padding-left: 60px;
   padding-right: 60px;
@@ -183,11 +206,9 @@ a {
 }
 
 .form-text {
-  font-family: "GruntGroteskLight", serif;
   font-weight: 300;
   font-size: 52px;
   line-height: 128%;
-  color: #f4d598;
   margin: 0px;
 }
 
@@ -196,30 +217,27 @@ a {
   font-weight: 700;
   font-size: 52px;
   line-height: 128%;
-  color: #f4d598;
   margin: 0px;
 }
 
 .form-text-right {
-  font-family: "GruntGroteskLight", serif;
   font-weight: 300;
   font-size: 52px;
   line-height: 128%;
-  color: #f4d598;
   margin: 0px;
   text-align: right;
 }
-/*
-.form-help-input{
-  
-}
-*/
-.form-help-one {
-  display: flex;
-  width: 373px;
+
+.form-help-input {
+  margin-top: 60px;
   font-family: "GruntGroteskLight", serif;
   font-size: 16px;
   font-weight: 300;
+}
+
+.form-help-one {
+  display: flex;
+  width: 373px;
   margin-bottom: 32px;
   border-bottom: 1px solid #f4d598;
   border-left: 1px solid transparent;
@@ -227,14 +245,55 @@ a {
   border-right: 1px solid transparent;
   background-color: transparent;
   text-transform: uppercase;
+  color: #f4d598;
+}
+
+.form-help-one::placeholder {
   color: #f4d59880;
+}
+
+.form-help-button:hover,
+.page-button:hover {
+  color: #e2471f;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 1s;
+}
+
+.form-help-button:active,
+.page-button:active {
+  color: #1e2613;
 }
 
 .form-help-button {
   background-color: #1e2613;
-  font-family: "GruntGroteskLight", serif;
-  font-size: 16px;
-  font-weight: 300;
+  border: none;
   text-transform: uppercase;
   color: #f4d598;
+  margin-top: 16px;
+  padding: 0px;
+}
+.page {
+  height: 10px;
+}
+/*==========help_two============*/
+.page-thank {
+  font-family: "GruntGroteskLight", serif;
+  padding-top: 100px;
+  background-color: #1e2613;
+  color: #f4d598;
+  width: 493px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 133px;
+}
+
+.page-button {
+  background-color: #1e2613;
+  border: none;
+  text-transform: uppercase;
+  color: #f4d598;
+  margin-top: 16px;
+  padding-top: 60px;
+  text-align: right;
 }
