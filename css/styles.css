@@ -119,7 +119,7 @@ a {
 
 .deva-footer-col:hover {
   color: #e2471f;
-  cursor: pointer;
+  cursor: nesw-resize;
   opacity: 0.5;
   transition: 1s;
 }
