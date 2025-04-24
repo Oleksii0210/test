@@ -1,0 +1,141 @@
+li,
+ol {
+  list-style-type: none;
+}
+
+button,
+body,
+ul,
+li,
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #f4d598;
+}
+
+body {
+  background-color: #1e2613;
+  font-family: "GruntGroteskLight";
+  font-weight: 300;
+  font-size: 16px;
+  color: #f4d598;
+}
+
+.conteiner {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.menu-hover:hover {
+  color: #e2471f;
+  cursor: pointer;
+}
+
+.menu-hover:active {
+  color: #1e2613;
+}
+
+.menu {
+  margin-top: 20px;
+}
+
+.menu-button {
+  font-family: "GruntGroteskLight";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 132%;
+  letter-spacing: 3%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #f4d598;
+  background-color: #1e2613;
+  border: none;
+  float: right;
+}
+
+.menu-hero-img {
+  width: 522px;
+  height: 534px;
+}
+
+.menu-hero {
+  display: flex;
+  text-transform: uppercase;
+}
+
+.menu-hero-bolt {
+  font-family: "GruntGroteskBold", serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 128%;
+  letter-spacing: 4%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  margin: 85px 85px 0px 265px;
+}
+
+.menu-hero-button {
+  margin-bottom: 40px;
+}
+
+.menu-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: "GruntGroteskLight";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 132%;
+  letter-spacing: 3%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  margin-top: 42px;
+  margin-bottom: 51px;
+}
+
+.menu-footer-Text16 {
+  font-family: "e-Ukraine-Thin", serif;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: lowercase;
+  margin-bottom: 16px;
+}
+
+.menu-footer-Button16 {
+  margin-top: 8px;
+}
+
+.menu-footer-Button {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.menu-button:hover {
+  color: #e2471f;
+  cursor: pointer;
+}
+
+.menu-button:active {
+  color: #1e2613;
+}

@@ -1,0 +1,299 @@
+.form-section {
+  background-color: #f4d598;
+  width: 450px;
+  padding: 20px;
+}
+.form-button {
+  font-family: "GruntGroteskLight", serif;
+  cursor: pointer;
+  width: 360px;
+  align-items: center;
+  margin: 20px;
+  border-radius: 40px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  border: 1px solid #6e0012;
+  background-color: #6e0012;
+  color: #f4d598;
+}
+
+.form-input {
+  display: flex;
+  width: 360px;
+  height: 44px;
+  margin: 20px;
+  border-radius: 40px;
+  padding-top: 10px;
+  padding-right: auto;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  border: 1px solid #6e0012;
+  background-color: transparent;
+}
+
+.form-input-comment {
+  display: flex;
+  width: 360px;
+  height: 134px;
+  margin: 20px;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-right: auto;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  border: 1px solid #6e0012;
+  background-color: transparent;
+}
+/*------------------------*/
+.form-activ {
+  padding: 20px;
+}
+
+.form-input-one {
+  display: flex;
+  width: 285px;
+  height: 23px;
+  border-bottom: 1px solid #f4d598;
+  border-left: 1px solid transparent;
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+  background-color: transparent;
+}
+.form-input-two {
+  display: flex;
+  width: 285px;
+  height: 23px;
+  margin: 20px;
+  border-bottom: 1px solid #e2471f;
+  border-left: 1px solid transparent;
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+  background-color: transparent;
+}
+/*==================FOOTER================*/
+li {
+  list-style-type: none;
+}
+ul,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.deva-footer {
+  background-color: #6e0012;
+  width: 1280px;
+  padding-left: 60px;
+  padding-top: 60px;
+  padding-right: 60px;
+  color: #f4d598;
+}
+
+.deva-footer-logo {
+  padding-bottom: 60px;
+}
+
+.deva-footer-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: "GruntGroteskLight", serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.deva-footer-menu {
+  margin-bottom: 20px;
+  color: #f4d598;
+}
+
+.deva-footer-col {
+  color: #f4d598;
+}
+
+.deva-footer-col:hover {
+  color: #e2471f;
+  cursor: nesw-resize;
+  opacity: 0.5;
+  transition: 1s;
+}
+
+.deva-footer-col:active {
+  color: #1e2613;
+}
+
+.deva-footer-text {
+  font-family: "e-UkraineLight", serif;
+  font-size: 16px;
+  font-weight: 100;
+  text-transform: none;
+  margin-bottom: 16px;
+}
+
+.deva-footer-texti {
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.deva-footer-mail {
+  margin-bottom: 54px;
+}
+.deva-footer-tex {
+  margin-bottom: 56px;
+}
+
+.deva-footer-form {
+  display: flex;
+}
+
+.deva-footer-button {
+  font-family: "GruntGroteskLight", serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  border: none;
+  color: #f4d598;
+  background-color: #6e0012;
+}
+
+.deva-footer-button:hover {
+  color: #e2471f;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 1s;
+}
+
+.deva-footer-button:active {
+  color: #1e2613;
+}
+
+.deva-footer-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: "e-Ukraine-Thin", serif;
+  font-size: 16px;
+  font-weight: 100;
+  color: #f4d598;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.form-txt {
+  font-family: "e-Ukraine-Thin", serif;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 120%;
+  color: #f4d598;
+  margin-top: 20px;
+}
+
+/*===========help==================*/
+.form-help {
+  font-family: "GruntGroteskLight", serif;
+  padding-top: 100px;
+  background-color: #1e2613;
+  color: #f4d598;
+  width: 493px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 133px;
+}
+
+.form-text {
+  font-weight: 300;
+  font-size: 52px;
+  line-height: 128%;
+  margin: 0px;
+}
+
+.form-text-bolt {
+  font-family: "GruntGroteskBold", serif;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 128%;
+  margin: 0px;
+}
+
+.form-text-right {
+  font-weight: 300;
+  font-size: 52px;
+  line-height: 128%;
+  margin: 0px;
+  text-align: right;
+}
+
+.form-help-input {
+  margin-top: 60px;
+  font-family: "GruntGroteskLight", serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.form-help-one {
+  display: flex;
+  width: 373px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #f4d598;
+  border-left: 1px solid transparent;
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #f4d598;
+}
+
+.form-help-one::placeholder {
+  color: #f4d59880;
+}
+
+.form-help-button:hover,
+.page-button:hover {
+  color: #e2471f;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 1s;
+}
+
+.form-help-button:active,
+.page-button:active {
+  color: #1e2613;
+}
+
+.form-help-button {
+  background-color: #1e2613;
+  border: none;
+  text-transform: uppercase;
+  color: #f4d598;
+  margin-top: 16px;
+  padding: 0px;
+}
+.page {
+  height: 10px;
+}
+/*==========help_two============*/
+.page-thank {
+  font-family: "GruntGroteskLight", serif;
+  padding-top: 100px;
+  background-color: #1e2613;
+  color: #f4d598;
+  width: 493px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 133px;
+}
+
+.page-button {
+  background-color: #1e2613;
+  border: none;
+  text-transform: uppercase;
+  color: #f4d598;
+  margin-top: 16px;
+  padding-top: 60px;
+  text-align: right;
+}
